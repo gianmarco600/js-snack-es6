@@ -45,10 +45,10 @@ for (let i = 0; i < squadre.length; i++){
     punti = randNum();
     falli = randNum();
     document.getElementById('output').innerHTML += nome + ',' + punti + ',' + falli + '<br>';
-    let elem = {nome : nome , falli : falli};
+    let elem = {nome : nome , falli : falli}
     nArray.push(elem);
     document.getElementById('output1').innerHTML += `${nome} ha subito ${falli} falli <br>` ;
-};
+}
 
 console.log(nArray);
 
