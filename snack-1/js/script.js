@@ -32,4 +32,4 @@ for (let i = 1; i < parcoBici.length; i++){
         nomeMin = nome;
     }
 }
-console.log(pesoMin, nomeMin);
+console.log(`la ${nomeMin} pesa ${pesoMin} ed e' la piu' leggera`);
